@@ -1,0 +1,177 @@
+{
+  "displayed_curve_week1_pct": 8.799062054793795,
+  "displayed_curve_week2_pct": 5.5510842943458645,
+  "displayed_curve_drop_pp": 3.247977760447931,
+  "displayed_curve_relative_drop_pct": 36.91277252304872,
+  "same_19_cohorts_week1_pct": 8.849972327561124,
+  "same_19_cohorts_week2_pct": 5.5510842943458645,
+  "same_19_cohorts_drop_pp": 3.2988880332152597,
+  "same_19_cohorts_relative_drop_pct": 37.2756875514928,
+  "early_8_cohorts_simple_mean_pct": 9.64375,
+  "early_8_cohorts_weighted_pct": 9.766113995249553,
+  "early_min_pct": 8.56,
+  "early_max_pct": 11.21,
+  "early_std_pp": 0.8696829522877865,
+  "early_7_complete_cohorts_simple_mean_pct": 9.42,
+  "early_7_complete_cohorts_weighted_pct": 9.451310289722338,
+  "late_12_cohorts_simple_mean_pct": 8.060833333333333,
+  "late_12_cohorts_weighted_pct": 8.07596140607048,
+  "cohort_jan13_to_jan20": [
+    {
+      "first_week": "2020-01-13 00:00:00",
+      "retention_week": 1,
+      "count_first": 77381,
+      "retained_users": 6500,
+      "retention_rate": 8.4
+    },
+    {
+      "first_week": "2020-01-20 00:00:00",
+      "retention_week": 1,
+      "count_first": 70906,
+      "retained_users": 6551,
+      "retention_rate": 9.24
+    }
+  ],
+  "largest_adjacent_drop_common_cohorts": {
+    "to_week": 2,
+    "prior_rate_common_cohorts": 8.849972327561124,
+    "current_rate": 5.5510842943458645,
+    "drop_pp": 3.2988880332152597,
+    "relative_drop_pct": 37.2756875514928
+  },
+  "adjacent_week_comparisons": [
+    {
+      "to_week": 2,
+      "prior_rate_common_cohorts": 8.849972327561124,
+      "current_rate": 5.5510842943458645,
+      "drop_pp": 3.2988880332152597,
+      "relative_drop_pct": 37.2756875514928
+    },
+    {
+      "to_week": 3,
+      "prior_rate_common_cohorts": 5.59151611862866,
+      "current_rate": 4.433911830761163,
+      "drop_pp": 1.157604287867497,
+      "relative_drop_pct": 20.702869549295045
+    },
+    {
+      "to_week": 4,
+      "prior_rate_common_cohorts": 4.496515305598836,
+      "current_rate": 3.799498676718012,
+      "drop_pp": 0.6970166288808235,
+      "relative_drop_pct": 15.50126223328837
+    },
+    {
+      "to_week": 5,
+      "prior_rate_common_cohorts": 3.84196364653704,
+      "current_rate": 3.428482090694402,
+      "drop_pp": 0.4134815558426381,
+      "relative_drop_pct": 10.762245400612533
+    },
+    {
+      "to_week": 6,
+      "prior_rate_common_cohorts": 3.4874493478828277,
+      "current_rate": 3.1492852240381257,
+      "drop_pp": 0.33816412384470196,
+      "relative_drop_pct": 9.69660316500355
+    },
+    {
+      "to_week": 7,
+      "prior_rate_common_cohorts": 3.218480067190625,
+      "current_rate": 3.0528653797281198,
+      "drop_pp": 0.1656146874625053,
+      "relative_drop_pct": 5.145742213872665
+    },
+    {
+      "to_week": 8,
+      "prior_rate_common_cohorts": 3.117555618867679,
+      "current_rate": 2.8577426562101693,
+      "drop_pp": 0.25981296265750986,
+      "relative_drop_pct": 8.33386776117489
+    },
+    {
+      "to_week": 9,
+      "prior_rate_common_cohorts": 2.9420668276188877,
+      "current_rate": 2.6811701946723177,
+      "drop_pp": 0.26089663294657006,
+      "relative_drop_pct": 8.867801047120413
+    },
+    {
+      "to_week": 10,
+      "prior_rate_common_cohorts": 2.7666686701589076,
+      "current_rate": 2.584273818825738,
+      "drop_pp": 0.18239485133316968,
+      "relative_drop_pct": 6.592580213903733
+    },
+    {
+      "to_week": 11,
+      "prior_rate_common_cohorts": 2.669901380770197,
+      "current_rate": 2.4791761072100718,
+      "drop_pp": 0.19072527356012525,
+      "relative_drop_pct": 7.143532526475041
+    },
+    {
+      "to_week": 12,
+      "prior_rate_common_cohorts": 2.5786403683534775,
+      "current_rate": 2.435028998981715,
+      "drop_pp": 0.14361136937176244,
+      "relative_drop_pct": 5.569267088743425
+    },
+    {
+      "to_week": 13,
+      "prior_rate_common_cohorts": 2.527794755939993,
+      "current_rate": 2.5149515284214434,
+      "drop_pp": 0.012843227518549494,
+      "relative_drop_pct": 0.5080803134182298
+    },
+    {
+      "to_week": 14,
+      "prior_rate_common_cohorts": 2.611430830734086,
+      "current_rate": 2.7618503712164477,
+      "drop_pp": -0.15041954048236184,
+      "relative_drop_pct": -5.760043065742551
+    },
+    {
+      "to_week": 15,
+      "prior_rate_common_cohorts": 2.899790872776274,
+      "current_rate": 2.867802004902294,
+      "drop_pp": 0.03198886787397992,
+      "relative_drop_pct": 1.1031439602868196
+    },
+    {
+      "to_week": 16,
+      "prior_rate_common_cohorts": 3.0323234166391786,
+      "current_rate": 2.9116106498604553,
+      "drop_pp": 0.12071276677872333,
+      "relative_drop_pct": 3.980867150131142
+    },
+    {
+      "to_week": 17,
+      "prior_rate_common_cohorts": 3.1103170061000296,
+      "current_rate": 3.0031128296039866,
+      "drop_pp": 0.10720417649604297,
+      "relative_drop_pct": 3.4467283008706677
+    },
+    {
+      "to_week": 18,
+      "prior_rate_common_cohorts": 3.2552934799713253,
+      "current_rate": 2.982183134299652,
+      "drop_pp": 0.27311034567167347,
+      "relative_drop_pct": 8.38973036846064
+    },
+    {
+      "to_week": 19,
+      "prior_rate_common_cohorts": 3.228539470239653,
+      "current_rate": 2.9867440919584,
+      "drop_pp": 0.2417953782812532,
+      "relative_drop_pct": 7.489311514079302
+    },
+    {
+      "to_week": 20,
+      "prior_rate_common_cohorts": 3.3916044598603916,
+      "current_rate": 3.202172841214784,
+      "drop_pp": 0.18943161864560754,
+      "relative_drop_pct": 5.58530986993115
+    }
+  ]
+}

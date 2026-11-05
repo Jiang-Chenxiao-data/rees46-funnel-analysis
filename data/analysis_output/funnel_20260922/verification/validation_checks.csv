@@ -1,0 +1,55 @@
+check,actual,expected,passed,category
+clean_row_count,19583742,19583742,True,full_data
+column_names,event_time|event_type|product_id|category_id|price|user_id|user_session,event_time|event_type|product_id|category_id|price|user_id|user_session,True,full_data
+null_event_time,0,0,True,full_data
+null_event_type,0,0,True,full_data
+null_user_id,0,0,True,full_data
+null_product_id,0,0,True,full_data
+event_time_timezone,UTC,UTC,True,full_data
+subsecond_timestamps,0,0,True,full_data
+observation_start_utc,2019-10-01 00:00:00,2019-10-01 00:00:00,True,full_data
+observation_end_utc,2020-02-29 23:59:59,2020-02-29 23:59:59,True,full_data
+all_event_distinct_users,1639358,1639358,True,full_data
+import_row_count,19583742,19583742,True,full_data
+import_view_rows,9656790,9656790,True,full_data
+import_cart_rows,5652991,5652991,True,full_data
+import_remove_from_cart_rows,2987859,2987859,True,full_data
+import_purchase_rows,1286102,1286102,True,full_data
+import_null_session_rows,4085,4085,True,full_data
+import_zero_price_rows,86326,86326,True,full_data
+import_negative_price_rows,124,124,True,full_data
+import_min_price,-79.37,-79.37,True,full_data
+import_max_price,327.78,327.78,True,full_data
+import_min_event_time_utc,2019-10-01 00:00:00,2019-10-01 00:00:00,True,full_data
+import_max_event_time_utc,2020-02-29 23:59:59,2020-02-29 23:59:59,True,full_data
+unknown_event_rows,0,0,True,full_data
+no_window.view_users,1597754,1597754,True,handoff_reconciliation
+no_window.cart_users,280595,280595,True,handoff_reconciliation
+no_window.view_purchase_users,95198,95198,True,handoff_reconciliation
+no_window.strict_purchase_users,87330,87330,True,handoff_reconciliation
+seven_day.view_users,1529295,1529295,True,handoff_reconciliation
+seven_day.cart_users,268258,268258,True,handoff_reconciliation
+seven_day.view_purchase_users,88980,88980,True,handoff_reconciliation
+seven_day.strict_purchase_users,80366,80366,True,handoff_reconciliation
+duration.users,87330,87330,True,handoff_reconciliation
+duration.min,25,25,True,handoff_reconciliation
+duration.max,12718992,12718992,True,handoff_reconciliation
+duration.p50,4338,4338,True,handoff_reconciliation
+duration.p75,162335,162335,True,handoff_reconciliation
+duration.p90,1123050,1123050,True,handoff_reconciliation
+duration.p95,2354352,2354352,True,handoff_reconciliation
+coverage.1d,61520,61520,True,handoff_reconciliation
+coverage.7d,74608,74608,True,handoff_reconciliation
+coverage.14d,79119,79119,True,handoff_reconciliation
+coverage.30d,83403,83403,True,handoff_reconciliation
+invalid_cart_order,0,0,True,full_data
+invalid_view_purchase_order,0,0,True,full_data
+invalid_strict_order,0,0,True,full_data
+invalid_purchase_branch_relation,0,0,True,full_data
+invalid_first_strict_duration,0,0,True,full_data
+seven_day_strict_without_cart_paths,0,0,True,full_data
+seven_day_user_monotonicity,True,True,True,full_data
+no_window_user_monotonicity,True,True,True,full_data
+right_truncation_partition,6899164,6899164,True,full_data
+first_strict_user_count_equals_no_window_strict,87330,87330,True,full_data
+synthetic_boundary_controls_passed,11,11,True,synthetic

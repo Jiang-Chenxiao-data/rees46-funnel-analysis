@@ -1,0 +1,7 @@
+# Versions used for the full Parquet recomputation on Python 3.13.9.
+# check_funnel_sql_fixture.py uses only Python standard-library modules.
+numpy==2.3.5
+numba==0.62.1
+pyarrow==21.0.0
+pandas==2.3.3
+

@@ -1,0 +1,9 @@
+metric,value
+all_first_view_paths,6899164
+eligible_7d_paths,6574154
+excluded_right_truncated_paths,325010
+paths_starting_exactly_at_cutoff,1
+paths_starting_after_cutoff,325010
+users_with_no_eligible_7d_path,68459
+cart_paths_exactly_at_7d,0
+strict_purchase_paths_exactly_at_7d,1

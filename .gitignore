@@ -1,0 +1,9 @@
+data/raw/
+data/processed/
+*.parquet
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+reproduction_output/

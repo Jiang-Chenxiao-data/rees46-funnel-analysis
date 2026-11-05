@@ -1,0 +1,13 @@
+metric,value
+row_count,19583742
+view_rows,9656790
+cart_rows,5652991
+remove_from_cart_rows,2987859
+purchase_rows,1286102
+null_session_rows,4085
+zero_price_rows,86326
+negative_price_rows,124
+min_price,-79.37
+max_price,327.78
+min_event_time_utc,2019-10-01 00:00:00
+max_event_time_utc,2020-02-29 23:59:59

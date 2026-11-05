@@ -1,0 +1,8 @@
+metric,value,unit
+users,87330,users
+min,25,seconds
+max,12718992,seconds
+p50,4338,seconds
+p75,162335,seconds
+p90,1123050,seconds
+p95,2354352,seconds

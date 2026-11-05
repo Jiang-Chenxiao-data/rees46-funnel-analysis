@@ -1,0 +1,9 @@
+scope,metric,numerator_users,denominator_users,rate,rate_percent
+no_window,view_to_cart,280595,1597754,0.17561839932805676,17.56
+no_window,cart_to_strict_purchase,87330,280595,0.3112314902261266,31.12
+no_window,view_to_strict_purchase,87330,1597754,0.0546579761339981,5.47
+no_window,view_to_purchase_branch,95198,1597754,0.059582388778247466,5.96
+seven_day,view_to_cart,268258,1529295,0.17541285363517176,17.54
+seven_day,cart_to_strict_purchase,80366,268258,0.29958472813485526,29.96
+seven_day,view_to_strict_purchase,80366,1529295,0.052551012067652086,5.26
+seven_day,view_to_purchase_branch,88980,1529295,0.05818367286887095,5.82

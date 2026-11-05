@@ -1,0 +1,13 @@
+{
+  "source": "交接文件/PORTFOLIO_PROJECT_2_HANDOFF.updated_20260922.md",
+  "source_sections": ["21.4", "21.5", "21.6", "21.7", "22.3"],
+  "evidence_status": "transcribed_from_handoff_not_a_database_export",
+  "original_mysql_execution_time_utc": null,
+  "observation_start_utc": "2019-10-01 00:00:00",
+  "observation_end_utc": "2020-02-29 23:59:59",
+  "eligible_view_cutoff_utc": "2020-02-22 23:59:59",
+  "no_window": {"view_users": 1597754, "cart_users": 280595, "view_purchase_users": 95198, "strict_purchase_users": 87330},
+  "seven_day": {"view_users": 1529295, "cart_users": 268258, "view_purchase_users": 88980, "strict_purchase_users": 80366},
+  "first_strict_duration_seconds": {"users": 87330, "min": 25, "max": 12718992, "p50": 4338, "p75": 162335, "p90": 1123050, "p95": 2354352},
+  "first_strict_coverage_users": {"1": 61520, "7": 74608, "14": 79119, "30": 83403}
+}

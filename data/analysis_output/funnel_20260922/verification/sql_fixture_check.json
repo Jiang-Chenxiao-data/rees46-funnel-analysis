@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-11-05T04:02:35.923369+00:00",
+  "fixture": "synthetic 9-user timestamp-boundary controls; NOT actual REES46 users",
+  "engine": "SQLite 3.51.0",
+  "adaptations": [
+    "remove ENGINE/USE",
+    "adapt datetime functions and INTERVAL",
+    "register IF and second-difference",
+    "null-safe equality",
+    "real division"
+  ],
+  "scope": "archived SQL logic on synthetic data after dialect adaptation; MySQL not executed",
+  "statements_exercised": {
+    "02_import_validation.sql": 2,
+    "04_funnel_user_product.sql": 18,
+    "05_funnel_metrics.sql": 24,
+    "06_funnel_validation.sql": 21
+  },
+  "structural_zero_results": [
+    "invalid_time_paths",
+    "invalid_cart_order",
+    "invalid_view_purchase_order",
+    "invalid_cart_purchase_order",
+    "invalid_purchase_relation",
+    "invalid_users",
+    "duplicate_user_product_groups",
+    "invalid_keys",
+    "invalid_cart_order",
+    "invalid_view_purchase_order",
+    "invalid_strict_order",
+    "invalid_purchase_branch_relation",
+    "invalid_start_paths",
+    "duplicate_7d_path_groups",
+    "invalid_path_flags",
+    "invalid_path_source_links",
+    "invalid_users",
+    "invalid_duration_rows",
+    "invalid_first_purchase_tuples"
+  ],
+  "expected_no_window_counts": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "expected_7d_counts": [
+    7,
+    6,
+    5,
+    5
+  ],
+  "expected_quantiles_seconds": [
+    100,
+    604800,
+    604802,
+    604802
+  ],
+  "sql_sha256": {
+    "02_import_validation.sql": "bd67e7463f4a15287a5447d0b9a83ded5110ca066814f41379a2ef951c740766",
+    "04_funnel_user_product.sql": "1028739c493ea263de77596c1c89975262de0f283b939742071969a691a40dce",
+    "05_funnel_metrics.sql": "f38a8c539abfc213ba726ef1ea9a1606d0b75e63e62afb6ce5c7df7bc6e430d6",
+    "06_funnel_validation.sql": "d6eb8d3e9169642b61b465b8d6648b57c331445f5ef75debebfacbd37ff3b4e0"
+  },
+  "mysql_executed": false
+}

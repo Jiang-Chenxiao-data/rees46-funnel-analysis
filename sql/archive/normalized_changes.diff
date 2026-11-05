@@ -1,0 +1,65 @@
+--- user_supplied_original
++++ 04_05_normalized_body
+@@ -105,7 +105,7 @@
+ where reached_cart=0 and reached_cart_purchase=1;
+ 
+ #统计去重的浏览人数
+-select count(distinct user_id) as view_cnt from tem_user_product_funnel；
++select count(distinct user_id) as view_cnt from tem_user_product_funnel;
+ #统计去重后的每个步骤人数
+ drop table if exists tem_funnel_a;
+ create table tem_funnel_a
+@@ -117,7 +117,7 @@
+  count(distinct if(cart_purchase_time is not null,user_id,null)) as after_cart_purchase_cnt
+ from tem_user_product_funnel;
+ 
+-select * from tem_funnel_a
++select * from tem_funnel_a;
+ #无窗口期漏斗分析结果
+ drop table if exists tem_funnel_no_w;
+ create table tem_funnel_no_w
+@@ -132,7 +132,7 @@
+  round((after_cart_purchase_cnt/view_cnt),4) as strict_purchase_view
+ from tem_funnel_a;
+ 
+-select* from tem_funnel_no_w
++select* from tem_funnel_no_w;
+ 
+ 
+ #分析严格转化耗时
+@@ -163,7 +163,7 @@
+ 
+ select max(time_step) as max_step,min(time_step) as min_step
+ from tem_user_first_strict;
+-##统计时耗的中位数、P25、P75以及P90
++##统计时耗的中位数（P50）、P75、P90以及P95
+ WITH t AS (
+     SELECT
+         time_step,
+@@ -212,7 +212,7 @@
+ 
+ #确认数据末端和7天截止时间
+ select max(event_time) as date_end_time,date_sub(max(event_time),INTERVAL 7 DAY) as date_sub_time
+-from events
++from events;
+ 
+ #创建具有完整7天观察窗口的用户-商品表
+ drop table if exists tem_funnel_7d_path;
+@@ -241,9 +241,11 @@
+   else 0
+   end as reached_strict_purchase_7d
+  from tem_after_cart_purchase
+- where  view_time<=(SELECT MAX(event_time) FROM events)-INTERVAL 7 DAY;   
++ where view_time <= '2020-02-22 23:59:59'; -- 归档固定边界；原文使用 MAX(event_time)-7 DAY   
+  
+ # 建立用户表
++-- 归档补充：与其他派生表一致，明确重跑时重建本表。
++DROP TABLE IF EXISTS tem_funnel_7d_user;
+ CREATE TABLE tem_funnel_7d_user
+ ENGINE = InnoDB
+ AS
+@@ -280,4 +282,4 @@
+         AS cart_to_strict_purchase_pct,
+     ROUND(strict_purchase_users * 100.0 / NULLIF(view_users, 0), 2)
+         AS view_to_strict_purchase_pct
+-FROM counts;  +FROM counts;

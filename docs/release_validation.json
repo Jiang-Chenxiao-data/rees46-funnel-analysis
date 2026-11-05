@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "final_report_sha256": "6ce576da5caf04eac344a95d7333ee912ec7787e65cb091d30ed0770261bd7e9",
+  "report_selected": "2026-11-03 operations recommendations revision",
+  "mysql_connected": false,
+  "readme_key_figures_independently_reconciled": true,
+  "original_raw_data_published": false,
+  "new_raw_recomputation": false,
+  "notes": "Project 2: 11 synthetic boundary controls and adapted SQL fixture passed; historical full-data checks not rerun. Project 3: all 64000 original records rerun; summary-based independent checks passed."
+}
