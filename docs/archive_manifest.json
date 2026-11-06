@@ -1,8 +1,8 @@
 {
-  "validated_on": "2026-11-05",
-  "scope": "release README key figures, local links, Python syntax and archive hashes; not a new MySQL run",
-  "local_links_checked": 65,
-  "file_count": 80,
+  "validated_on": "2026-11-06",
+  "scope": "Business scope revision, preserved numerical tables and embedded figures, 20-page visual review, local links and archive hashes; no new full-data or MySQL run",
+  "local_links_checked": 44,
+  "file_count": 81,
   "files": [
     {
       "path": ".gitignore",
@@ -11,8 +11,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13368,
-      "sha256": "03630a84cc59197c033ec62077e37c8870be82535786d533d4cb37a196749c09"
+      "bytes": 13857,
+      "sha256": "32831bd3d2838f16a407cb7f92690707a19ce3f55c2adf53e2bc1227a7f2d16c"
     },
     {
       "path": "data/analysis_output/funnel_20260922/reported_results.json",
@@ -161,13 +161,18 @@
     },
     {
       "path": "docs/REPRODUCE.md",
-      "bytes": 3250,
-      "sha256": "2f7e5e6cbc63dbbda70f9b1f52e983b7ea0a6a57fed64ef681a189d92aec342f"
+      "bytes": 3370,
+      "sha256": "9783afb61b4ce1419243005d62f6f82cb7f8864ecfd2afe0b222121b332a7c56"
     },
     {
       "path": "docs/RESUME.md",
-      "bytes": 957,
-      "sha256": "bf5e771c430c2b6e52c14a8915f4a75ff12cac651e34b173bd66d83c7baffff5"
+      "bytes": 993,
+      "sha256": "619f463310cc1fe21efbbd0914fab7171e2f6465f010fb7428137bb4c684ac5a"
+    },
+    {
+      "path": "docs/cosmetics_revision_validation.json",
+      "bytes": 588,
+      "sha256": "628145d70e3c7c30d3a8ddc538b9d999ce6f382531a8abbcc836b59ea66f4e2c"
     },
     {
       "path": "docs/event_dictionary.md",
@@ -191,8 +196,8 @@
     },
     {
       "path": "docs/release_validation.json",
-      "bytes": 571,
-      "sha256": "b0b8154bb43c88bb3644f0039e8da9bd1751c3828ba512a367cbfaf7515835a5"
+      "bytes": 638,
+      "sha256": "11b68a9c88fb340c441d39cdf051d3e89f3db5788240c038e8931ef090f7fc54"
     },
     {
       "path": "docs/retention_showcase_validation.json",
@@ -291,13 +296,13 @@
     },
     {
       "path": "report/report.docx",
-      "bytes": 8504892,
-      "sha256": "6ce576da5caf04eac344a95d7333ee912ec7787e65cb091d30ed0770261bd7e9"
+      "bytes": 8505378,
+      "sha256": "a93d597d801706e59931f677300b9f7168ec3a9c91a6d2b031150cb65671f8e6"
     },
     {
       "path": "report/report.md",
-      "bytes": 28828,
-      "sha256": "8ddb601c8b256a879f7a0c7842aa3608e5e580dcfee3d6a4224222fc31cab2ee"
+      "bytes": 29359,
+      "sha256": "9286d49e80b96d822314349a5b260e514836875d9dc381bfe8ae689c597a7bd3"
     },
     {
       "path": "requirements.txt",
@@ -404,6 +409,5 @@
       "bytes": 11989,
       "sha256": "b03f4387fb876b21f5696e5eb633007ece6dbf5561d993a9f033fb7f675facf6"
     }
-  ],
-  "updated_on": "2026-11-06"
+  ]
 }

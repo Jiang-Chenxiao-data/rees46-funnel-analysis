@@ -22,4 +22,4 @@ Python 3.13、MySQL 8.0；依赖见根目录 requirements.txt。根目录运行 
 | 114,075 → 82,724 及 58.64% 拆解 | [周构成](../data/analysis_output/status_archive_20261026/report_evidence/weekly_user_composition.csv)、[下降拆解](../data/analysis_output/status_archive_20261026/report_evidence/decline_decomposition.csv) |
 | 196,795 用户周、64.87% | [回流结果](../data/analysis_output/status_archive_20261026/report_evidence/return_gap_1to5_recomputed.csv) |
 
-原全量漏斗历史检查 54 项、留存 355 项，其运行时间属于历史；本轮只核对发布数字、路径、文件指纹并运行合成边界测试。未重跑约两千万条事件或 MySQL。最终 Word 来自 2026-11-03 的“运营建议与图表修订版”，Markdown 从该文件提取文字、表格及原始内嵌图，不使用 10 月旧报告冒充最终版本。原 Word 附录中的工作目录名是历史来源标记，发布路径以本说明为准。
+原全量漏斗历史检查 54 项、留存 355 项，其运行时间属于历史；本轮只核对发布数字、路径、文件指纹并运行合成边界测试。未重跑约两千万条事件或 MySQL。最终 Word 为 2026-11-06《美妆电商用户运营分析》，在 2026-11-03“运营建议与图表修订版”上修正数据来源、单一美妆网店业务背景及运营建议；Markdown 已同步修订。此次保留原有统计结果、10 幅图表和 2 张表格，未重跑全量数据。原 Word 附录中的工作目录名是历史来源标记，发布路径以本说明为准。
