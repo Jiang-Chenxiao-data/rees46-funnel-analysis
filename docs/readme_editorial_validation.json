@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-06",
+  "scope": "Expanded README: business questions, workflow, methodological decisions, linked implementation, quality evidence, recommendations and reproduction",
+  "links_checked": 39,
+  "heading_anchors_checked": true,
+  "new_numeric_claims_checked_against_archived_csv": true,
+  "code_claims_checked_against_python_and_sql": true,
+  "new_analysis_run": false
+}

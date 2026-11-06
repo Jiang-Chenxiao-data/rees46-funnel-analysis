@@ -1,13 +1,18 @@
 {
   "validated_on": "2026-11-05",
   "scope": "release README key figures, local links, Python syntax and archive hashes; not a new MySQL run",
-  "local_links_checked": 50,
-  "file_count": 79,
+  "local_links_checked": 65,
+  "file_count": 80,
   "files": [
     {
       "path": ".gitignore",
       "bytes": 121,
       "sha256": "2cfd7c0f20f737ce96ce1bd535552b5492dbc39091ed44ed331d46bd43f02b5b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13368,
+      "sha256": "03630a84cc59197c033ec62077e37c8870be82535786d533d4cb37a196749c09"
     },
     {
       "path": "data/analysis_output/funnel_20260922/reported_results.json",
@@ -155,6 +160,16 @@
       "sha256": "ccdfff9e7941142d96bf5fc677b666bcce9cda5acde828459d99dc4ed0cdcc81"
     },
     {
+      "path": "docs/REPRODUCE.md",
+      "bytes": 3250,
+      "sha256": "2f7e5e6cbc63dbbda70f9b1f52e983b7ea0a6a57fed64ef681a189d92aec342f"
+    },
+    {
+      "path": "docs/RESUME.md",
+      "bytes": 957,
+      "sha256": "bf5e771c430c2b6e52c14a8915f4a75ff12cac651e34b173bd66d83c7baffff5"
+    },
+    {
       "path": "docs/event_dictionary.md",
       "bytes": 3221,
       "sha256": "57411cf4fa575adbd24083602b164e43d276a5d55e4b3ff49300e41b03146090"
@@ -170,19 +185,14 @@
       "sha256": "783ecb9c346f0045231690483a59b07640052c5f9914af73774268debc236704"
     },
     {
+      "path": "docs/readme_editorial_validation.json",
+      "bytes": 397,
+      "sha256": "dfd38fdd6b1ec4b6fdf4e5adcdfd2ce9134306c6b9348896425aab6642bd7cf2"
+    },
+    {
       "path": "docs/release_validation.json",
       "bytes": 571,
       "sha256": "b0b8154bb43c88bb3644f0039e8da9bd1751c3828ba512a367cbfaf7515835a5"
-    },
-    {
-      "path": "docs/REPRODUCE.md",
-      "bytes": 3250,
-      "sha256": "2f7e5e6cbc63dbbda70f9b1f52e983b7ea0a6a57fed64ef681a189d92aec342f"
-    },
-    {
-      "path": "docs/RESUME.md",
-      "bytes": 957,
-      "sha256": "bf5e771c430c2b6e52c14a8915f4a75ff12cac651e34b173bd66d83c7baffff5"
     },
     {
       "path": "docs/retention_showcase_validation.json",
@@ -280,11 +290,6 @@
       "sha256": "a67506478b40641a799d44efe0fc0ae7ee6a77103e7b24d9d829990e5e8f7472"
     },
     {
-      "path": "README.md",
-      "bytes": 5105,
-      "sha256": "0e2639e888c076b93ebaa522d17521b816c0089275b05d9e3d15905ff1586a4d"
-    },
-    {
       "path": "report/report.docx",
       "bytes": 8504892,
       "sha256": "6ce576da5caf04eac344a95d7333ee912ec7787e65cb091d30ed0770261bd7e9"
@@ -340,6 +345,11 @@
       "sha256": "40ea7265ac1d42017752a8d6d93fe8f6cae07bf7d2a134721c5bb1d2105bdeb1"
     },
     {
+      "path": "sql/README.md",
+      "bytes": 5214,
+      "sha256": "b68be0c213ca2c96a5c0d20980a5d3ca455b6dab5edaa5cf95e09dd156f296e3"
+    },
+    {
       "path": "sql/archive/02_import_validation.index_test_before_20260922.sql",
       "bytes": 477,
       "sha256": "1a3b1632bf7539fbad009587bcdc6e76ce7a9f9bb2b6582394ddbe65ad974619"
@@ -350,6 +360,11 @@
       "sha256": "d20e1db627e87f1e04ddd72795ba6e1aa498c71a93fd1a4715c099cd4261f393"
     },
     {
+      "path": "sql/archive/README.md",
+      "bytes": 664,
+      "sha256": "c29888373eb6888192014405ef2d97596b51cba1c8016e909f4207dc50b5d215"
+    },
+    {
       "path": "sql/archive/navicat_funnel_user_supplied_20260922.sql",
       "bytes": 9644,
       "sha256": "6e57820e4514e752c37fb5e38ac6ee9e7b99bef493702686d7e372229a83b01e"
@@ -358,16 +373,6 @@
       "path": "sql/archive/normalized_changes.diff",
       "bytes": 2210,
       "sha256": "33e2c0eb9a9b748c83f6b3a50c7055b18e867a338854f41840bcefb90028a142"
-    },
-    {
-      "path": "sql/archive/README.md",
-      "bytes": 664,
-      "sha256": "c29888373eb6888192014405ef2d97596b51cba1c8016e909f4207dc50b5d215"
-    },
-    {
-      "path": "sql/README.md",
-      "bytes": 5214,
-      "sha256": "b68be0c213ca2c96a5c0d20980a5d3ca455b6dab5edaa5cf95e09dd156f296e3"
     },
     {
       "path": "sql/weekly/02.周留存分析.sql",
