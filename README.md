@@ -1,6 +1,8 @@
 # REES46 用户运营分析
 
-使用 Python 与 MySQL 8.0 分析 2019-10 至 2020-02 的电商行为数据，回答用户在哪里流失、首次访问后何时回访，以及应优先验证哪些运营方案。
+使用 **Python + SQL（MySQL 8.0）** 分析 2019-10 至 2020-02 的电商行为数据，回答用户在哪里流失、首次访问后何时回访，以及应优先验证哪些运营方案。Python 用于数据清洗、独立核验与绘图，SQL 用于行为漏斗、周留存及用户分群计算。
+
+导航：[问题与方法](#问题与方法) · [主要成果](#主要成果) · [查看成果](#查看成果) · [快速开始](#快速开始) · [文件结构与来源](#文件结构与来源)
 
 ## 问题与方法
 
@@ -19,13 +21,23 @@
 
 产出严格漏斗、留存、周活跃及分群汇总、10 幅报告图表和运营建议。建议先验证商品筛选与比较、首访后两周运营及短间隔召回；尚无落地收益证据。
 
+### 周 Cohort 活跃留存热力图
+
+![周 Cohort 活跃留存热力图：20 个首次观察批次在后续各周的活跃留存率](figures/weekly_cohort_retention_heatmap.png)
+
+按用户首次出现的自然周划分 Cohort，使用 SQL 计算各批次后续每周的活跃留存率，再用 Python 绘制热力图。图中展示 **20 个至少有一周完整后续观察机会的批次**；每行追踪同一批用户，每列表示首次出现后的第 N 周，颜色越深表示留存率越高。
+
+多数批次的第 2 周留存低于第 1 周，后续仍有波动。为公平比较，选取第 1、2 周均可完整观察的 **同一组 19 个批次**，将精确回访人数和批次人数分别求和后计算，整体留存由 **8.85% 降至 5.55%（下降 3.30 个百分点）**。这一结果支持优先验证首访后两周的用户运营方案；不能据此认定某项措施能提高留存。
+
+活跃包括浏览、加购、移出购物车或购买任一行为，不要求每周连续回访。空白表示目标周观察不足，不是 0%；首次观察不等于注册，首批仅覆盖 2019-10-01 至 10-06。整体留存由精确人数计算，不能直接平均图中已四舍五入的百分比。
+
+[查看原尺寸热力图](figures/weekly_cohort_retention_heatmap.png) · [MySQL 导出矩阵](sql/周cohort留存矩阵.csv) · [精确人数核验结果](data/analysis_output/weekly_retention_validation_20261020/retention_detail_exact.csv)
+
 ## 查看成果
 
 - [最终报告（可浏览）](report/report.md) · [完整 Word 报告](report/report.docx)
 - [关键数字来源与复现边界](docs/REPRODUCE.md) · [指标定义](docs/metric_dictionary.md)
 - [SQL 执行顺序](sql/README.md) · [简历成果](docs/RESUME.md) · [归档指纹](docs/archive_manifest.json)
-
-![报告图表](figures/figure_01.png)
 
 ## 快速开始
 
@@ -41,6 +53,6 @@ python python/03_validate_funnel_results.py --self-test
 
 ## 文件结构与来源
 
-`report/` 最终报告；`python/` 清洗与独立核验；`sql/` MySQL 查询；`data/analysis_output/` 汇总结果；`figures/` 最终报告内嵌原图；`docs/` 定义、复现和核验记录。
+`report/` 最终报告；`python/` 清洗、独立核验与绘图；`sql/` MySQL 查询；`data/analysis_output/` 汇总结果；`figures/` 周留存热力图与最终报告内嵌原图；`docs/` 定义、复现和核验记录。
 
 数据发布方：[REES46 datasets](https://rees46.com/en/datasets)；下载入口：[Kaggle Cosmetics Shop](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop)。数据为观察性记录，无运营干预日志；原始数据和用户级明细不随仓库分发，使用与再分发须遵守来源许可。本报告的多商家平台建议是应用场景迁移，来源描述为单一化妆品网店。

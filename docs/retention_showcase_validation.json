@@ -1,0 +1,13 @@
+{
+  "updated_on": "2026-11-06",
+  "scope": "README technology wording and supplied retention heatmap with caption",
+  "image": "figures/weekly_cohort_retention_heatmap.png",
+  "image_sha256": "751b7988e867b8b07943e38d0b013a13ca4a6c076462c5cfb85fe4779816725e",
+  "matrix": "sql/周cohort留存矩阵.csv",
+  "matrix_sha256": "b1f7f7b1784a0fd335a3618ef9e7fc62a27affdc34646f4612462f2965e8edfa",
+  "source_matrix_matches_original": true,
+  "displayed_cohorts": 20,
+  "common_cohorts_for_week1_week2_comparison": 19,
+  "image_modified": false,
+  "mysql_rerun": false
+}

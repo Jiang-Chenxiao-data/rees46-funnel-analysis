@@ -1,8 +1,8 @@
 {
   "validated_on": "2026-11-05",
   "scope": "release README key figures, local links, Python syntax and archive hashes; not a new MySQL run",
-  "local_links_checked": 47,
-  "file_count": 77,
+  "local_links_checked": 50,
+  "file_count": 79,
   "files": [
     {
       "path": ".gitignore",
@@ -181,8 +181,13 @@
     },
     {
       "path": "docs/RESUME.md",
-      "bytes": 948,
-      "sha256": "7e0e297b066d9d9886df6c80db07b246ca6d99f0e5e265ef4ccc7d972e08c009"
+      "bytes": 957,
+      "sha256": "bf5e771c430c2b6e52c14a8915f4a75ff12cac651e34b173bd66d83c7baffff5"
+    },
+    {
+      "path": "docs/retention_showcase_validation.json",
+      "bytes": 577,
+      "sha256": "b7cb251336ab62fb168950057789d25ad43d739e2bb7ea4225d2638e49f650df"
     },
     {
       "path": "figures/figure_01.png",
@@ -235,6 +240,11 @@
       "sha256": "d9fb8d86a88e14e040bf65eea6dc4bf9960649447b5d955166a52fcd1101737f"
     },
     {
+      "path": "figures/weekly_cohort_retention_heatmap.png",
+      "bytes": 650864,
+      "sha256": "751b7988e867b8b07943e38d0b013a13ca4a6c076462c5cfb85fe4779816725e"
+    },
+    {
       "path": "python/01_data_cleaning.py",
       "bytes": 1363,
       "sha256": "f18727289be45e3a51434698ad977881cd48be176a2122d43269100d07598677"
@@ -271,8 +281,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3323,
-      "sha256": "18cd6ea116187faaf0934096c02575377dc3e215bc32bbf72fafeba258dbaa1c"
+      "bytes": 5105,
+      "sha256": "0e2639e888c076b93ebaa522d17521b816c0089275b05d9e3d15905ff1586a4d"
     },
     {
       "path": "report/report.docx",
@@ -389,5 +399,6 @@
       "bytes": 11989,
       "sha256": "b03f4387fb876b21f5696e5eb633007ece6dbf5561d993a9f033fb7f675facf6"
     }
-  ]
+  ],
+  "updated_on": "2026-11-06"
 }
