@@ -1,8 +1,7 @@
 {
-  "validated_on": "2026-11-06",
-  "scope": "Business scope revision, preserved numerical tables and embedded figures, 20-page visual review, local links and archive hashes; no new full-data or MySQL run",
-  "local_links_checked": 44,
-  "file_count": 81,
+  "validated_on": "2026-11-07",
+  "scope": "Business narrative and reference typography; existing statistical estimates retained",
+  "file_count": 92,
   "files": [
     {
       "path": ".gitignore",
@@ -11,13 +10,318 @@
     },
     {
       "path": "README.md",
-      "bytes": 13857,
-      "sha256": "32831bd3d2838f16a407cb7f92690707a19ce3f55c2adf53e2bc1227a7f2d16c"
+      "bytes": 14145,
+      "sha256": "82f07f8f5c9e2f80773ef47bbc30b7f34b6d7b6b2f080b4522d95798057cbe8e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 81,
+      "sha256": "3b23f7f1caad69fbb892946b395252fcc4507f45e43d80a52cba239116866e48"
+    },
+    {
+      "path": "docs/cosmetics_revision_validation.json",
+      "bytes": 588,
+      "sha256": "628145d70e3c7c30d3a8ddc538b9d999ce6f382531a8abbcc836b59ea66f4e2c"
+    },
+    {
+      "path": "docs/editorial_validation_20261107.json",
+      "bytes": 354,
+      "sha256": "a2610da6ec73a01404e0c97ee7d0796ff968e2ad882a2a655fe9291667b76903"
+    },
+    {
+      "path": "docs/event_dictionary.md",
+      "bytes": 3221,
+      "sha256": "57411cf4fa575adbd24083602b164e43d276a5d55e4b3ff49300e41b03146090"
+    },
+    {
+      "path": "docs/funnel_validation_report.md",
+      "bytes": 6193,
+      "sha256": "7a22965e54f576e0158806c50761dd0716466f41070b18cdf3889fcf2ad07037"
+    },
+    {
+      "path": "docs/metric_dictionary.md",
+      "bytes": 7501,
+      "sha256": "783ecb9c346f0045231690483a59b07640052c5f9914af73774268debc236704"
+    },
+    {
+      "path": "docs/readme_editorial_validation.json",
+      "bytes": 397,
+      "sha256": "dfd38fdd6b1ec4b6fdf4e5adcdfd2ce9134306c6b9348896425aab6642bd7cf2"
+    },
+    {
+      "path": "docs/release_validation.json",
+      "bytes": 633,
+      "sha256": "9acdf4b38c28ab359d7830d8c5cc3fa2cdd996b821b10897ab92d347baa07f9a"
+    },
+    {
+      "path": "docs/REPRODUCE.md",
+      "bytes": 3663,
+      "sha256": "cea3ea710eebc0e8603ea8540791a8bc6e230d041c8b8bef6a5552371e14c54e"
+    },
+    {
+      "path": "docs/RESUME.md",
+      "bytes": 1005,
+      "sha256": "030ed96bf764e1c41e66b3a5d5d88545758d8b643ef05fc5de4351eb981a64f7"
+    },
+    {
+      "path": "docs/retention_showcase_validation.json",
+      "bytes": 577,
+      "sha256": "b7cb251336ab62fb168950057789d25ad43d739e2bb7ea4225d2638e49f650df"
+    },
+    {
+      "path": "figures/figure_01.png",
+      "bytes": 88221,
+      "sha256": "b699b8ceb79c4c7af3c314a8f82bc6b85b7c938b6a5fe47e5e46c32d8e810d92"
+    },
+    {
+      "path": "figures/figure_02.png",
+      "bytes": 166854,
+      "sha256": "37467d4a544031d5aabe2b611fa1736918eda6f08b9eadf86860813938f3e411"
+    },
+    {
+      "path": "figures/figure_03.png",
+      "bytes": 88835,
+      "sha256": "44364d6823138a2943b0020c483c587b5cc03cc10f77c817a03ec22b7557873f"
+    },
+    {
+      "path": "figures/figure_04.png",
+      "bytes": 1714891,
+      "sha256": "4cfb75128982b4aa6c7f444a48c6aa533c4e9bfee7f12dbf5a8ff5bdc2172e5d"
+    },
+    {
+      "path": "figures/figure_05.png",
+      "bytes": 73815,
+      "sha256": "7197bc1b15c4a850b952b4f06d7f2b940e280ea1c2a63d4ad01100e7cece1da9"
+    },
+    {
+      "path": "figures/figure_06.png",
+      "bytes": 1199381,
+      "sha256": "0bd6211a6ff7412038c50c988f10c5bcf84c8993feac9163044146c7d7563504"
+    },
+    {
+      "path": "figures/figure_07.png",
+      "bytes": 1831800,
+      "sha256": "4c268454d42a30f99bb700bf4fb7101a9c4267fb8a68dd180a2fa509cf62d977"
+    },
+    {
+      "path": "figures/figure_08.png",
+      "bytes": 1100780,
+      "sha256": "5d2e3359292842f76601fa4d33dfd19120809e75ed08b981def7a50cf310f2d8"
+    },
+    {
+      "path": "figures/figure_09.png",
+      "bytes": 1071902,
+      "sha256": "bd8389260fffa45477b3ceb2ae6bfbb0a0a8ce5ccb4ef36563fb8598c6ff0cd7"
+    },
+    {
+      "path": "figures/figure_10.png",
+      "bytes": 1107169,
+      "sha256": "d9fb8d86a88e14e040bf65eea6dc4bf9960649447b5d955166a52fcd1101737f"
+    },
+    {
+      "path": "figures/report_01.png",
+      "bytes": 88221,
+      "sha256": "b699b8ceb79c4c7af3c314a8f82bc6b85b7c938b6a5fe47e5e46c32d8e810d92"
+    },
+    {
+      "path": "figures/report_02.png",
+      "bytes": 166854,
+      "sha256": "37467d4a544031d5aabe2b611fa1736918eda6f08b9eadf86860813938f3e411"
+    },
+    {
+      "path": "figures/report_03.png",
+      "bytes": 88835,
+      "sha256": "44364d6823138a2943b0020c483c587b5cc03cc10f77c817a03ec22b7557873f"
+    },
+    {
+      "path": "figures/report_04.png",
+      "bytes": 1714891,
+      "sha256": "4cfb75128982b4aa6c7f444a48c6aa533c4e9bfee7f12dbf5a8ff5bdc2172e5d"
+    },
+    {
+      "path": "figures/report_05.png",
+      "bytes": 73815,
+      "sha256": "7197bc1b15c4a850b952b4f06d7f2b940e280ea1c2a63d4ad01100e7cece1da9"
+    },
+    {
+      "path": "figures/report_06.png",
+      "bytes": 1199381,
+      "sha256": "0bd6211a6ff7412038c50c988f10c5bcf84c8993feac9163044146c7d7563504"
+    },
+    {
+      "path": "figures/report_07.png",
+      "bytes": 1831800,
+      "sha256": "4c268454d42a30f99bb700bf4fb7101a9c4267fb8a68dd180a2fa509cf62d977"
+    },
+    {
+      "path": "figures/report_08.png",
+      "bytes": 1100780,
+      "sha256": "5d2e3359292842f76601fa4d33dfd19120809e75ed08b981def7a50cf310f2d8"
+    },
+    {
+      "path": "figures/report_09.png",
+      "bytes": 1071902,
+      "sha256": "bd8389260fffa45477b3ceb2ae6bfbb0a0a8ce5ccb4ef36563fb8598c6ff0cd7"
+    },
+    {
+      "path": "figures/report_10.png",
+      "bytes": 1107169,
+      "sha256": "d9fb8d86a88e14e040bf65eea6dc4bf9960649447b5d955166a52fcd1101737f"
+    },
+    {
+      "path": "figures/weekly_cohort_retention_heatmap.png",
+      "bytes": 650864,
+      "sha256": "751b7988e867b8b07943e38d0b013a13ca4a6c076462c5cfb85fe4779816725e"
+    },
+    {
+      "path": "python/01_data_cleaning.py",
+      "bytes": 1363,
+      "sha256": "f18727289be45e3a51434698ad977881cd48be176a2122d43269100d07598677"
+    },
+    {
+      "path": "python/02_parquet_to_mysql.py",
+      "bytes": 725,
+      "sha256": "8ef014df901e1c9cc976b00738573969fb7a05fbd46234909cf66bef24c15fb9"
+    },
+    {
+      "path": "python/03_validate_funnel_results.py",
+      "bytes": 17887,
+      "sha256": "f0bb82e7b6064da28c69a559d3235a0993ad29937e63ae04ecfc6a8c452ba1e3"
+    },
+    {
+      "path": "python/04_plot_weekly_retention_heatmap.py",
+      "bytes": 8337,
+      "sha256": "2f87e04fa8972963761a5b9fe63998206862b6efc93fa04a393029a3b1167693"
+    },
+    {
+      "path": "python/05_validate_weekly_retention.py",
+      "bytes": 17397,
+      "sha256": "5d7d6cd0f2ce6ff2b53fd07a1f5648e2dfdabe80b90f8d0a4b1021f34769bf7a"
+    },
+    {
+      "path": "python/check_funnel_sql_fixture.py",
+      "bytes": 6820,
+      "sha256": "aaf0816695b17a82343c1d2ee2a789e9bd84e9253680be2271e1316683546279"
+    },
+    {
+      "path": "python/requirements-funnel-validation.txt",
+      "bytes": 200,
+      "sha256": "a67506478b40641a799d44efe0fc0ae7ee6a77103e7b24d9d829990e5e8f7472"
+    },
+    {
+      "path": "report/report.docx",
+      "bytes": 8511962,
+      "sha256": "7ccc0523bd8ceb3a08f64ef658b7634318414a45e1bb4e97db5bf8486c9e76aa"
+    },
+    {
+      "path": "report/report.md",
+      "bytes": 39303,
+      "sha256": "cb640d6c35317940f2cc6fabf5c112dd1759c5b8b2fb1c072711395071ba8e9f"
+    },
+    {
+      "path": "sql/00_schema.sql",
+      "bytes": 1210,
+      "sha256": "a9860b78a91efd1637527d4bb601d37fe5f07b4e69c17fdd039223e34a21a80c"
+    },
+    {
+      "path": "sql/01_load_data.sql",
+      "bytes": 1009,
+      "sha256": "99bfec02524c40f3ddd07c3a506b23c9990aaafd8507631b24526778eb97f631"
+    },
+    {
+      "path": "sql/02_import_validation.sql",
+      "bytes": 1864,
+      "sha256": "bd67e7463f4a15287a5447d0b9a83ded5110ca066814f41379a2ef951c740766"
+    },
+    {
+      "path": "sql/03_indexes.sql",
+      "bytes": 992,
+      "sha256": "770abc1a864c1eaa33b79da7f5b625ddb555a55c435d907bdbf74d5b64dc5125"
+    },
+    {
+      "path": "sql/04_funnel_user_product.sql",
+      "bytes": 4650,
+      "sha256": "1028739c493ea263de77596c1c89975262de0f283b939742071969a691a40dce"
+    },
+    {
+      "path": "sql/05_funnel_metrics.sql",
+      "bytes": 7292,
+      "sha256": "f38a8c539abfc213ba726ef1ea9a1606d0b75e63e62afb6ce5c7df7bc6e430d6"
+    },
+    {
+      "path": "sql/06_funnel_validation.sql",
+      "bytes": 14821,
+      "sha256": "d6eb8d3e9169642b61b465b8d6648b57c331445f5ef75debebfacbd37ff3b4e0"
+    },
+    {
+      "path": "sql/07_weekly_retention_readonly_validation.sql",
+      "bytes": 2629,
+      "sha256": "40ea7265ac1d42017752a8d6d93fe8f6cae07bf7d2a134721c5bb1d2105bdeb1"
+    },
+    {
+      "path": "sql/README.md",
+      "bytes": 5214,
+      "sha256": "b68be0c213ca2c96a5c0d20980a5d3ca455b6dab5edaa5cf95e09dd156f296e3"
+    },
+    {
+      "path": "sql/周cohort留存矩阵.csv",
+      "bytes": 2480,
+      "sha256": "b1f7f7b1784a0fd335a3618ef9e7fc62a27affdc34646f4612462f2965e8edfa"
+    },
+    {
+      "path": "sql/周留存核对结果.csv",
+      "bytes": 11989,
+      "sha256": "b03f4387fb876b21f5696e5eb633007ece6dbf5561d993a9f033fb7f675facf6"
     },
     {
       "path": "data/analysis_output/funnel_20260922/reported_results.json",
       "bytes": 883,
       "sha256": "7dda8c68925744ae0e8ccaaf2fa11a269c323d60bc7e2c978fc56ba064604d0e"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/cohort_sizes.csv",
+      "bytes": 425,
+      "sha256": "80aac808a30a0e6b8a8b78b5b293583386e74a71235974002728cc3a0eecd686"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/interpretation_calculations.json",
+      "bytes": 5677,
+      "sha256": "94056d6a79e4648c8271bc32058ac84b2ab311f96a7463157ab37dd100c82afa"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/matrix_comparison.csv",
+      "bytes": 10323,
+      "sha256": "0b699e766c84ece4e0ff1b8f4fb621e22ff8231fea3d781f9a3ce7b5557c9929"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/mysql_detail_comparison.csv",
+      "bytes": 10931,
+      "sha256": "35761225bf30ecb73d0a092d2deb1ebe6f4986a5e8eb6650cb7a3dc85edaa007"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/mysql_overall_comparison.csv",
+      "bytes": 1346,
+      "sha256": "6056c691093bbf3b5ab7686f8801063ddd413bc0c8270599e24095d20cd3bb7c"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/overall_exact.csv",
+      "bytes": 871,
+      "sha256": "0bafb70c7533aa6cfec79fcecc14ec8ac4dbbec08cc88d94ac3ae1a7748b0c19"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/retention_detail_exact.csv",
+      "bytes": 6437,
+      "sha256": "255b3eecdb2b8d5e726a9d48adca318d91b12ae05bb28abe3f44d59c1cda9b75"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/screenshot_overall_comparison.csv",
+      "bytes": 857,
+      "sha256": "2884b8fd55fbb24e44d3a7311509ebabd8973abe6b4dcbbfe10f8ee168ccfc5d"
+    },
+    {
+      "path": "data/analysis_output/weekly_retention_validation_20261020/validation_checks.csv",
+      "bytes": 25121,
+      "sha256": "ccdfff9e7941142d96bf5fc677b666bcce9cda5acde828459d99dc4ed0cdcc81"
     },
     {
       "path": "data/analysis_output/funnel_20260922/verification/first_strict_coverage.csv",
@@ -115,246 +419,6 @@
       "sha256": "27699230a4b0d546ecfde71efaaa9b5341f7bdad8776d303315af2ea8148569a"
     },
     {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/cohort_sizes.csv",
-      "bytes": 425,
-      "sha256": "80aac808a30a0e6b8a8b78b5b293583386e74a71235974002728cc3a0eecd686"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/interpretation_calculations.json",
-      "bytes": 5677,
-      "sha256": "94056d6a79e4648c8271bc32058ac84b2ab311f96a7463157ab37dd100c82afa"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/matrix_comparison.csv",
-      "bytes": 10323,
-      "sha256": "0b699e766c84ece4e0ff1b8f4fb621e22ff8231fea3d781f9a3ce7b5557c9929"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/mysql_detail_comparison.csv",
-      "bytes": 10931,
-      "sha256": "35761225bf30ecb73d0a092d2deb1ebe6f4986a5e8eb6650cb7a3dc85edaa007"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/mysql_overall_comparison.csv",
-      "bytes": 1346,
-      "sha256": "6056c691093bbf3b5ab7686f8801063ddd413bc0c8270599e24095d20cd3bb7c"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/overall_exact.csv",
-      "bytes": 871,
-      "sha256": "0bafb70c7533aa6cfec79fcecc14ec8ac4dbbec08cc88d94ac3ae1a7748b0c19"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/retention_detail_exact.csv",
-      "bytes": 6437,
-      "sha256": "255b3eecdb2b8d5e726a9d48adca318d91b12ae05bb28abe3f44d59c1cda9b75"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/screenshot_overall_comparison.csv",
-      "bytes": 857,
-      "sha256": "2884b8fd55fbb24e44d3a7311509ebabd8973abe6b4dcbbfe10f8ee168ccfc5d"
-    },
-    {
-      "path": "data/analysis_output/weekly_retention_validation_20261020/validation_checks.csv",
-      "bytes": 25121,
-      "sha256": "ccdfff9e7941142d96bf5fc677b666bcce9cda5acde828459d99dc4ed0cdcc81"
-    },
-    {
-      "path": "docs/REPRODUCE.md",
-      "bytes": 3370,
-      "sha256": "9783afb61b4ce1419243005d62f6f82cb7f8864ecfd2afe0b222121b332a7c56"
-    },
-    {
-      "path": "docs/RESUME.md",
-      "bytes": 993,
-      "sha256": "619f463310cc1fe21efbbd0914fab7171e2f6465f010fb7428137bb4c684ac5a"
-    },
-    {
-      "path": "docs/cosmetics_revision_validation.json",
-      "bytes": 588,
-      "sha256": "628145d70e3c7c30d3a8ddc538b9d999ce6f382531a8abbcc836b59ea66f4e2c"
-    },
-    {
-      "path": "docs/event_dictionary.md",
-      "bytes": 3221,
-      "sha256": "57411cf4fa575adbd24083602b164e43d276a5d55e4b3ff49300e41b03146090"
-    },
-    {
-      "path": "docs/funnel_validation_report.md",
-      "bytes": 6193,
-      "sha256": "7a22965e54f576e0158806c50761dd0716466f41070b18cdf3889fcf2ad07037"
-    },
-    {
-      "path": "docs/metric_dictionary.md",
-      "bytes": 7501,
-      "sha256": "783ecb9c346f0045231690483a59b07640052c5f9914af73774268debc236704"
-    },
-    {
-      "path": "docs/readme_editorial_validation.json",
-      "bytes": 397,
-      "sha256": "dfd38fdd6b1ec4b6fdf4e5adcdfd2ce9134306c6b9348896425aab6642bd7cf2"
-    },
-    {
-      "path": "docs/release_validation.json",
-      "bytes": 638,
-      "sha256": "11b68a9c88fb340c441d39cdf051d3e89f3db5788240c038e8931ef090f7fc54"
-    },
-    {
-      "path": "docs/retention_showcase_validation.json",
-      "bytes": 577,
-      "sha256": "b7cb251336ab62fb168950057789d25ad43d739e2bb7ea4225d2638e49f650df"
-    },
-    {
-      "path": "figures/figure_01.png",
-      "bytes": 88221,
-      "sha256": "b699b8ceb79c4c7af3c314a8f82bc6b85b7c938b6a5fe47e5e46c32d8e810d92"
-    },
-    {
-      "path": "figures/figure_02.png",
-      "bytes": 166854,
-      "sha256": "37467d4a544031d5aabe2b611fa1736918eda6f08b9eadf86860813938f3e411"
-    },
-    {
-      "path": "figures/figure_03.png",
-      "bytes": 88835,
-      "sha256": "44364d6823138a2943b0020c483c587b5cc03cc10f77c817a03ec22b7557873f"
-    },
-    {
-      "path": "figures/figure_04.png",
-      "bytes": 1714891,
-      "sha256": "4cfb75128982b4aa6c7f444a48c6aa533c4e9bfee7f12dbf5a8ff5bdc2172e5d"
-    },
-    {
-      "path": "figures/figure_05.png",
-      "bytes": 73815,
-      "sha256": "7197bc1b15c4a850b952b4f06d7f2b940e280ea1c2a63d4ad01100e7cece1da9"
-    },
-    {
-      "path": "figures/figure_06.png",
-      "bytes": 1199381,
-      "sha256": "0bd6211a6ff7412038c50c988f10c5bcf84c8993feac9163044146c7d7563504"
-    },
-    {
-      "path": "figures/figure_07.png",
-      "bytes": 1831800,
-      "sha256": "4c268454d42a30f99bb700bf4fb7101a9c4267fb8a68dd180a2fa509cf62d977"
-    },
-    {
-      "path": "figures/figure_08.png",
-      "bytes": 1100780,
-      "sha256": "5d2e3359292842f76601fa4d33dfd19120809e75ed08b981def7a50cf310f2d8"
-    },
-    {
-      "path": "figures/figure_09.png",
-      "bytes": 1071902,
-      "sha256": "bd8389260fffa45477b3ceb2ae6bfbb0a0a8ce5ccb4ef36563fb8598c6ff0cd7"
-    },
-    {
-      "path": "figures/figure_10.png",
-      "bytes": 1107169,
-      "sha256": "d9fb8d86a88e14e040bf65eea6dc4bf9960649447b5d955166a52fcd1101737f"
-    },
-    {
-      "path": "figures/weekly_cohort_retention_heatmap.png",
-      "bytes": 650864,
-      "sha256": "751b7988e867b8b07943e38d0b013a13ca4a6c076462c5cfb85fe4779816725e"
-    },
-    {
-      "path": "python/01_data_cleaning.py",
-      "bytes": 1363,
-      "sha256": "f18727289be45e3a51434698ad977881cd48be176a2122d43269100d07598677"
-    },
-    {
-      "path": "python/02_parquet_to_mysql.py",
-      "bytes": 725,
-      "sha256": "8ef014df901e1c9cc976b00738573969fb7a05fbd46234909cf66bef24c15fb9"
-    },
-    {
-      "path": "python/03_validate_funnel_results.py",
-      "bytes": 17887,
-      "sha256": "f0bb82e7b6064da28c69a559d3235a0993ad29937e63ae04ecfc6a8c452ba1e3"
-    },
-    {
-      "path": "python/04_plot_weekly_retention_heatmap.py",
-      "bytes": 8337,
-      "sha256": "2f87e04fa8972963761a5b9fe63998206862b6efc93fa04a393029a3b1167693"
-    },
-    {
-      "path": "python/05_validate_weekly_retention.py",
-      "bytes": 17397,
-      "sha256": "5d7d6cd0f2ce6ff2b53fd07a1f5648e2dfdabe80b90f8d0a4b1021f34769bf7a"
-    },
-    {
-      "path": "python/check_funnel_sql_fixture.py",
-      "bytes": 6820,
-      "sha256": "aaf0816695b17a82343c1d2ee2a789e9bd84e9253680be2271e1316683546279"
-    },
-    {
-      "path": "python/requirements-funnel-validation.txt",
-      "bytes": 200,
-      "sha256": "a67506478b40641a799d44efe0fc0ae7ee6a77103e7b24d9d829990e5e8f7472"
-    },
-    {
-      "path": "report/report.docx",
-      "bytes": 8505378,
-      "sha256": "a93d597d801706e59931f677300b9f7168ec3a9c91a6d2b031150cb65671f8e6"
-    },
-    {
-      "path": "report/report.md",
-      "bytes": 29359,
-      "sha256": "9286d49e80b96d822314349a5b260e514836875d9dc381bfe8ae689c597a7bd3"
-    },
-    {
-      "path": "requirements.txt",
-      "bytes": 81,
-      "sha256": "3b23f7f1caad69fbb892946b395252fcc4507f45e43d80a52cba239116866e48"
-    },
-    {
-      "path": "sql/00_schema.sql",
-      "bytes": 1210,
-      "sha256": "a9860b78a91efd1637527d4bb601d37fe5f07b4e69c17fdd039223e34a21a80c"
-    },
-    {
-      "path": "sql/01_load_data.sql",
-      "bytes": 1009,
-      "sha256": "99bfec02524c40f3ddd07c3a506b23c9990aaafd8507631b24526778eb97f631"
-    },
-    {
-      "path": "sql/02_import_validation.sql",
-      "bytes": 1864,
-      "sha256": "bd67e7463f4a15287a5447d0b9a83ded5110ca066814f41379a2ef951c740766"
-    },
-    {
-      "path": "sql/03_indexes.sql",
-      "bytes": 992,
-      "sha256": "770abc1a864c1eaa33b79da7f5b625ddb555a55c435d907bdbf74d5b64dc5125"
-    },
-    {
-      "path": "sql/04_funnel_user_product.sql",
-      "bytes": 4650,
-      "sha256": "1028739c493ea263de77596c1c89975262de0f283b939742071969a691a40dce"
-    },
-    {
-      "path": "sql/05_funnel_metrics.sql",
-      "bytes": 7292,
-      "sha256": "f38a8c539abfc213ba726ef1ea9a1606d0b75e63e62afb6ce5c7df7bc6e430d6"
-    },
-    {
-      "path": "sql/06_funnel_validation.sql",
-      "bytes": 14821,
-      "sha256": "d6eb8d3e9169642b61b465b8d6648b57c331445f5ef75debebfacbd37ff3b4e0"
-    },
-    {
-      "path": "sql/07_weekly_retention_readonly_validation.sql",
-      "bytes": 2629,
-      "sha256": "40ea7265ac1d42017752a8d6d93fe8f6cae07bf7d2a134721c5bb1d2105bdeb1"
-    },
-    {
-      "path": "sql/README.md",
-      "bytes": 5214,
-      "sha256": "b68be0c213ca2c96a5c0d20980a5d3ca455b6dab5edaa5cf95e09dd156f296e3"
-    },
-    {
       "path": "sql/archive/02_import_validation.index_test_before_20260922.sql",
       "bytes": 477,
       "sha256": "1a3b1632bf7539fbad009587bcdc6e76ce7a9f9bb2b6582394ddbe65ad974619"
@@ -365,11 +429,6 @@
       "sha256": "d20e1db627e87f1e04ddd72795ba6e1aa498c71a93fd1a4715c099cd4261f393"
     },
     {
-      "path": "sql/archive/README.md",
-      "bytes": 664,
-      "sha256": "c29888373eb6888192014405ef2d97596b51cba1c8016e909f4207dc50b5d215"
-    },
-    {
       "path": "sql/archive/navicat_funnel_user_supplied_20260922.sql",
       "bytes": 9644,
       "sha256": "6e57820e4514e752c37fb5e38ac6ee9e7b99bef493702686d7e372229a83b01e"
@@ -378,6 +437,11 @@
       "path": "sql/archive/normalized_changes.diff",
       "bytes": 2210,
       "sha256": "33e2c0eb9a9b748c83f6b3a50c7055b18e867a338854f41840bcefb90028a142"
+    },
+    {
+      "path": "sql/archive/README.md",
+      "bytes": 664,
+      "sha256": "c29888373eb6888192014405ef2d97596b51cba1c8016e909f4207dc50b5d215"
     },
     {
       "path": "sql/weekly/02.周留存分析.sql",
@@ -398,16 +462,6 @@
       "path": "sql/weekly/转化机会与分群诊断.sql",
       "bytes": 1338,
       "sha256": "a49ff8b4d551314592f62fc36e3d8be6a3f00d10ace8f22f5772d254de17f852"
-    },
-    {
-      "path": "sql/周cohort留存矩阵.csv",
-      "bytes": 2480,
-      "sha256": "b1f7f7b1784a0fd335a3618ef9e7fc62a27affdc34646f4612462f2965e8edfa"
-    },
-    {
-      "path": "sql/周留存核对结果.csv",
-      "bytes": 11989,
-      "sha256": "b03f4387fb876b21f5696e5eb633007ece6dbf5561d993a9f033fb7f675facf6"
     }
   ]
 }
